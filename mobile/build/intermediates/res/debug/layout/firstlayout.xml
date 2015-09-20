@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/detailImage"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fid" />
+
+
+    <RelativeLayout
+
+        android:layout_below="@+id/detailImage"
+        android:layout_width="match_parent"
+        android:layout_height="500dip">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:background="#2b89cb"
+            android:textColor="#ffffff"
+            android:id="@+id/button"
+            android:onClick="getMain"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp" />
+
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:hint="Email Id"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="111dp" />
+
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:hint="Token Number"
+
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/C:/Users/cool/AndroidStudioProjects/OnBoard/mobile/src/main/res/layout/firstlayout.xml -->

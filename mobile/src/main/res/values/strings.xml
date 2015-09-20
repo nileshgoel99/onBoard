@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fidelity Investments</string>
+
+    <string name="title_section1">About Us</string>
+    <string name="title_section5">News Feed</string>
+    <string name="title_section2">Leadership Message</string>
+    <string name="title_section3">Division at PQRI</string>
+    <string name="title_section4">Contact us</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example"></string>
+
+    <string name="action_settings">Log Out</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
