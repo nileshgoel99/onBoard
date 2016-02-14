@@ -15,8 +15,17 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <data android:scheme="yourapp" android:host="open" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
         </activity>
         <activity android:name=".Dashboard"></activity>
+        <meta-data android:name="io.branch.sdk.TestMode" android:value="true" />
+        <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_akaXnPs80T9DPWeWAOTzibknyzf69ifQ" />
+        <meta-data android:name="io.branch.sdk.BranchKey.test" android:value="key_test  _akaXnPs80T9DPWeWAOTzibknyzf69ifQ" />
     </application>
 
 </manifest>
